@@ -54,10 +54,10 @@ int main()
 	freopen("input.txt", "r", stdin);
 	int size;
 	std::cin >> size;
+	size++;
 	char symbolReplace;
 	char symbolPaste;
 	char* destination = new char[size];
-	size++;
 	char* source = new char[size];
 	getc(stdin);
 	gets_s(source, size);
